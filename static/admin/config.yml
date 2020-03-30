@@ -2,8 +2,8 @@ backend:
   name: github
   branch: nqhung291/nqhung-blog
 
-media_folder: "static/media"
-public_folder: "/media"
+media_folder: "static/images"
+public_folder: "/images"
 
 # Uncomment to leverage Netlify CMS UI authoring flow
 # see: https://www.netlifycms.org/docs/configuration-options/#publish-mode
