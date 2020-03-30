@@ -38,7 +38,16 @@ class PostListing extends React.Component {
         {postList.map(post => {
           const { title, path, excerpt, thumbnail, author, tags, date } = post;
           const className = post.post_class ? post.post_class : "post";
-
+          let thumbnailSection
+          if (thumbnail) {
+            thumbnailSection = (
+              <section className="post-thumbnail">
+                <p>
+                  <img src={thumbnail} alt="" />
+                </p>
+              </section>
+            )
+          }
           return (
             <PostFormatting className={className} key={title}>
               <PostHeader>
@@ -54,11 +63,7 @@ class PostListing extends React.Component {
                     &raquo;
                   </Link>
                 </p>
-              </section>
-              <section className="post-thumbnail">
-                <p>
-                  <img src={thumbnail} alt="" />
-                </p>
+                {thumbnailSection}
               </section>
               <footer className="post-meta">
                 <AuthorThumbnail avatar={author.image} name={author.name} />
