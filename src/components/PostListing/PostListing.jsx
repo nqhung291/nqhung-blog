@@ -41,9 +41,9 @@ class PostListing extends React.Component {
           let thumbnailSection
           if (thumbnail) {
             thumbnailSection = (
-              <section className="post-thumbnail">
+              <section>
                 <p>
-                  <img src={thumbnail} alt="" />
+                  <img className="post-thumbnail" src={thumbnail} alt="" />
                 </p>
               </section>
             )
