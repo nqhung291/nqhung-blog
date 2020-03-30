@@ -17,6 +17,7 @@ const getPostList = (postEdges, authorEdges) =>
     cover: postEdge.node.frontmatter.cover,
     title: postEdge.node.frontmatter.title,
     date: postEdge.node.frontmatter.date,
+    thumbnail: postEdge.node.frontmatter.thumbnail,
     author: AuthorModel.getAuthor(
       authorEdges,
       postEdge.node.frontmatter.author,
@@ -35,7 +36,7 @@ class PostListing extends React.Component {
       <div>
         {/* This is the post loop - each post will be output using this markup */}
         {postList.map(post => {
-          const { title, path, excerpt, author, tags, date } = post;
+          const { title, path, excerpt, thumbnail, author, tags, date } = post;
           const className = post.post_class ? post.post_class : "post";
 
           return (
@@ -52,6 +53,11 @@ class PostListing extends React.Component {
                   <Link className="read-more" to={path}>
                     &raquo;
                   </Link>
+                </p>
+              </section>
+              <section className="post-thumbnail">
+                <p>
+                  <img src={thumbnail} alt="" />
                 </p>
               </section>
               <footer className="post-meta">
