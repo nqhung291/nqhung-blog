@@ -71,6 +71,7 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     title
                     tags
+                    thumbnail
                     cover
                     date
                     category

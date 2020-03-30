@@ -132,6 +132,7 @@ module.exports = {
                 author: rssMetadata.author,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
+                thumbnail: edge.node.frontmatter.thumbnail,
                 custom_elements: [{ "content:encoded": edge.node.html }]
               }));
             },
@@ -153,6 +154,7 @@ module.exports = {
                       date
                       category
                       tags
+                      thumbnail
                       author
                     }
                   }

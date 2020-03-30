@@ -95,7 +95,6 @@ class TagTemplate extends React.Component {
             {/* The tiny footer at the very bottom */}
             <Footer
               copyright={config.copyright}
-              promoteGatsby={config.promoteGatsby}
             />
           </SiteWrapper>
         </Drawer>
