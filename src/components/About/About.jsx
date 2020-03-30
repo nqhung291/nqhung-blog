@@ -3,11 +3,10 @@ import "./About.css";
 
 class About extends Component {
   render() {
+    const {children} = this.props
     return (
       <div className="about">
-        <h1>
-          Edit About component or pages/about.jsx to include your information.
-        </h1>
+        {children}
       </div>
     );
   }

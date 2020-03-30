@@ -14,7 +14,7 @@ const Bio = props => {
   return (
     <p>
       Read
-      <Link to={morePostsUrl}>more posts</Link>
+      <Link to={morePostsUrl}> more posts </Link>
       by this author.
     </p>
   );
