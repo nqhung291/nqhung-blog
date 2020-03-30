@@ -8,7 +8,9 @@ class AboutPage extends Component {
     return (
       <div className="about-container">
         <Helmet title={`About | ${config.siteTitle}`} />
-        <About />
+        <About>
+          <h3>Hello trang này chưa kịp làm :v</h3>
+        </About>
       </div>
     );
   }
