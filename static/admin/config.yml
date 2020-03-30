@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: nqhung291/nqhung-blog
+  repo: nqhung291/nqhung-blog
 
 media_folder: "static/images"
 public_folder: "/images"
