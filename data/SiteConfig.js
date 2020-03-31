@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: "https://nqhung-blog.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Hello mọi người đến với blog nhảm nhí của Hưng!", // Website description used for RSS feeds/meta description tag.
+    "Tech, Programming, Self development... Thích gì viết nấy", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://haysclark.github.io/gatsby-starter-casper/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible

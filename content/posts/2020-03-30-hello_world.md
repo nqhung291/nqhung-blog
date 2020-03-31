@@ -13,17 +13,17 @@ tags:
   
 Xin chào cô chú xin chào các bạn =))  
 
-Chào mừng mọi người đến với blog (hi vọng không) nhảm nhí của @nqhung291  
+Chào mừng mọi người đến với blog (hi vọng không) nhảm nhí của @nqhung291.    
 
 Giới thiệu sơ qua một chút thì mình là Hưng, Nguyễn Quang Hưng. Sinh năm 1998.  
 
-Hiện đang là một sinh viên (học dốt) ở trường ĐH Bách Khoa Hà Nội kiêm một chân Software Developer Intern.  
+Hiện đang là một sinh viên (học dốt) ở trường ĐH Bách Khoa Hà Nội kiêm một chân Software Development Intern, hiện tại mình đang làm chủ yếu là Front end (VueJS, React các thứ).  
 
 Đây là bàn làm việc của mình trong mùa Covid-19 vừa học online vừa đi code dạo.  
 
 <img src="/images/IMG_6723.jpg" width="710" height="auto" />  
   
-  
+
 
 Btw mình không có hứng thú lắm với AI, Machine Learning hoặc các thứ đang là trào lưu nên chắc blog này sẽ không chạy đua công nghệ :v  
 
