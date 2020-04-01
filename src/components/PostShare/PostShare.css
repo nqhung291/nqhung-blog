@@ -46,4 +46,8 @@
     .post-footer .share a {
         margin: 1.4rem 0.8rem 0;
     }
+
+    .shareButtons {
+        justify-content: center;
+    }
 }

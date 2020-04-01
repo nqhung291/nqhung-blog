@@ -27,7 +27,7 @@ class PostShare extends React.Component {
     return (
       <section className="share">
         <h4>Share this post</h4>
-        <div style={{ display: "flex" }}>
+        <div className="shareButtons" style={{ display: "flex" }}>
           <FacebookShareButton url={url} quote={post.title}>
             <a className="icon-facebook" style={{ fontSize: "1.4em" }} href="https://facebook.com/">
               <span className="hidden">Facebook</span>
