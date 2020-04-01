@@ -21,7 +21,7 @@ Hiện đang là một sinh viên (học dốt) ở trường ĐH Bách Khoa Hà
 
 Đây là bàn làm việc của mình trong mùa Covid-19 vừa học online vừa đi code dạo.  
 
-<img src="/images/IMG_6723.jpg" width="710" height="auto" />  
+<img src="/images/IMG_6723.jpg" width="100%" height="auto" />  
   
 
 
